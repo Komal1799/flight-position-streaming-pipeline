@@ -1,0 +1,17 @@
+# Environment variables and secrets
+.env
+dbt_profiles/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db

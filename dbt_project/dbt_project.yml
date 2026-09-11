@@ -1,0 +1,14 @@
+name: 'flight_pipeline'
+version: '1.0.0'
+config-version: 2
+
+profile: 'flight_pipeline'
+
+model-paths: ["models"]
+
+models:
+  flight_pipeline:
+    staging:
+      materialized: view
+    marts:
+      materialized: table

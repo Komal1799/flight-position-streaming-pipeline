@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: flight_pipeline_source
+    schema: public
+    tables:
+      - name: flight_aggregates
